@@ -2,10 +2,9 @@
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function addElementToBeginningOfArray (chocolateBars,candyString){
-  return 
+function addElementToBeginningOfArray (chocolateBars,candyString) {
+  return [candyString,...chocolateBars];
 }
-};
 
 }
 function accessElementInArray (array, index) {
