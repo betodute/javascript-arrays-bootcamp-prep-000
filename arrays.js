@@ -10,7 +10,7 @@ function accessElementInArray (array, index) {
   return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray (chocolateBars, candyString) {
+function destructivelyAddElementToBeginningOfArray (chocolateBars, candyString) {
   chocolateBars.unshift(candyString)
   return chocolateBars;
 }
