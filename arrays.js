@@ -2,8 +2,11 @@
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function addElementToBeginningOfArray ()
+function addElementToBeginningOfArray () {
+  return array
+};
 
+}
 function accessElementInArray (array, index) {
   return array[index];
 }
