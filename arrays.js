@@ -2,7 +2,9 @@
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function addElementToBeginningOfArray (chocolateBars,candyString
+function addElementToBeginningOfArray (chocolateBars,candyString){
+  return 
+}
 };
 
 }
