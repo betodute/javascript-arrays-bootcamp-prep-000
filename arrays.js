@@ -11,6 +11,6 @@ function destructivelyAddElementToBeginningOfArray (chocolateBars, candyString) 
   return chocolateBars;
 }
 
-function removeElementFromBeginningOfArray (array) {
-  return array.slice(1);
+function accessElementInArray (chocolateBars) {
+  return chocolateBars
 }
