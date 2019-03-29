@@ -11,6 +11,14 @@ function destructivelyAddElementToBeginningOfArray (chocolateBars, candyString) 
   return chocolateBars;
 }
 
+function addElementToEndOfArray(chocolateBars,candyString) {
+  return [...chocolateBars, candyString];
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
+  return chocolateBars.push(candyString);
+}
+
 function accessElementInArray (array,index) {
   return array[index];
 }
